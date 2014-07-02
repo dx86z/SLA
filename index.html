@@ -3,37 +3,99 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>jQuery Mobile: Theme Download</title>
-    <link rel="stylesheet" href="themes/my-theme.min.css" />
-	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile.structure-1.4.2.min.css" />
-	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+	<title>Salad Order Form</title>
+    <link rel="stylesheet" href="../Documents/Sites/SLA/themes/my-theme.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
 </head>
 
 <body>
-     
-     	<div data-role="content" class="jqm-content">
+
+<div data-role="content" class="jqm-content">
 
 			<div align="center"><img src="SLA Logo.png" width="300" height="135"></div>
 			<div align="center"></div>
-			<h1 align="center">SLA Management Luch Orders</h1>
+			<h1 align="center">SLA Management Lunch Orders</h1>
+      </div>
 
-<fieldset data-role="controlgroup" data-mini="true">
-    <legend>Select Your School:</legend>
-    <label for="select-custom-8">Select A</label>
-    <select name="select-custom-8" id="select-custom-8" data-iconpos="left" data-native-menu="false">
-        <option value="#">Father Lopez Catholic High School</option>
-        <option value="#">N/A</option>
-        <option value="#">N/A</option>
-    </select>
-</fieldset>
-             
-		<body>
-	<head>
-<html>
-                  
-                  
-                  
-                  
-                  
+<form name="htmlform" method="post" action="send.php" data-ajax="false">
+<table width="100%">
+<tr>
+ <td width="122" align="right" valign="top">
+  <label for="name">
+    <div align="left">*First Name
+      </label>
+      
+      <input  type="text" name="name" maxlength="150" size="50">
+    </div>
+ </td>
+</tr>
+<tr>
+ <td valign="top" align="right">
+  <label for="lastname">
+    <div align="left">*Last Name
+      </label>
+      
+      <input  type="text" name="lastname" maxlength="150" size="50">
+    </div>
+ </td>
+</tr>
+<tr>
+ <td valign="top" align="right">
+  <label for="date">
+    <div align="left">*Date
+      </label>
+      
+      <input  type="text" name="date" maxlength="180" size="50">
+    </div>
+ </td>
+ </tr>
+<tr>
+ <td height="246" align="right" valign="top">
+  <label for="services">
+    <div align="left">*Build Your Salad<br />
+    </div>
+   <label>
+     <div align="left">
+       <input type="checkbox" name="services[]" value="lettuce" />
+       &nbsp;Lettuce<br />
+     </div>
+   </label>
+     <label>
+       <div align="left">
+         <input type="checkbox" name="services[]" value="tomatoes" /> 
+         &nbsp;Tomatoes<br />
+       </div>
+     </label>
+     <label>
+       <div align="left">
+         <input type="checkbox" name="services[]" value="cucumbers" /> 
+         &nbsp;Cucumbers<br />
+       </div>
+     </label>
+     <label>
+       <div align="left">
+         <input type="checkbox" name="services[]" value="blackolives" /> 
+         &nbsp;Black Olives<br />
+       </div>
+     </label>
+     <label>
+       <div align="left">
+         <input type="checkbox" name="services[]" value="pepperoncini" /> 
+         &nbsp;Pepperoncini<br />
+       </div>
+     </label>
+   </p>
+ </td>
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <center><input type="submit" value="Submit Form"></center>
+ </td>
+</tr>
+</form>
+
+
+</body>
+</html>
