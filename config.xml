@@ -4,6 +4,9 @@
     id        = "com.phonegap.example"
     version   = "3.9.0">
 
+<gap:platform name="ios" />
+<gap:platform name="android" />
+
 <name>SLA Test 1</name>
 
 <description>
