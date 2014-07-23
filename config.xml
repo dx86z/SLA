@@ -14,5 +14,5 @@ A simple Davebuild Application.
 Your Name
 </author>
 
-<access origin="*" />
+<access origin="www.google.com"/>
 </widget>
