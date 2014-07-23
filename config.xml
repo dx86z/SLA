@@ -4,7 +4,7 @@
     id        = "com.phonegap.example"
     version   = "3.9.0">
 
-<name>Maggie</name>
+<name>Davie</name>
 
 <description>
 A simple Davebuild Application.
@@ -14,7 +14,5 @@ A simple Davebuild Application.
 Your Name
 </author>
 
-<feature name="http://plugins.phonegap.com/ChildBrowser/2.0.1" />
 <access origin="*" />
-
 </widget>
