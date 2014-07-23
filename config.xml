@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "3.9.0">
+
+<name>Maggie</name>
+
+<description>
+A simple Davebuild Application.
+</description>
+
+<author href="https://example.com" email="you@example.com">
+Your Name
+</author>
+
+<feature name="http://plugins.phonegap.com/ChildBrowser/2.0.1" />
+<access origin="*" />
+
+</widget>

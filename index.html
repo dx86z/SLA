@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+    
+    <script src="phonegap.js"></script>
+    <script src="childbrowser.js"></script>
 </head>
-
 <body>
 
   <script>
@@ -18,7 +20,7 @@
      
      	<div data-role="content" class="jqm-content">
 
-			<div align="center"><img src="SLA Logo.png" width="300" height="135"></div>
+			<div align="center"><img src="file:///C|/Users/Dave/Documents/Sites/SLA/SLA Logo.png" width="300" height="135"></div>
 			<div align="center"></div>
 <h1 align="center">SLA Management Lunch Orders</h1>
 
@@ -28,7 +30,7 @@
         <div align="center">
                 <ul data-role="listview" data-inset="true" style="min-width:210px;">
                   <li data-role="list-divider">Choose Your School</li>
-                  <li><a href="http://whybumperstickers.netau.net">Father Lopez Catholic High</a></li>
+                  <li><a href="#" onclick="window.plugins.childBrowser.showWebPage('http://whybumperstickers.netau.net');">Father Lopez Catholic High</a></li>
                   <li><a href="#">N/A</a></li>
                   <li><a href="#">n/A</a></li>
                   <li><a href="#">N/A</a></li>
