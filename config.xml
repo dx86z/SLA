@@ -18,6 +18,7 @@ Your Name
 </author>
 
 <icon src="IconAdmin.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="IconUser.png" gap:platform="android" gap:density="hdpi" />
 
 <access origin="http://code.jquery.com" subdomains="true" />
 <access origin="http://whybumperstickers.netau.net"/>
