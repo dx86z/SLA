@@ -17,6 +17,13 @@ A simple Davebuild Application.
 Your Name
 </author>
 
+<platform name="android">
+              <icon src="IconAdmin.png.png" density="ldpi" />
+              <icon src="IconAdmin.png.png" density="mdpi" />
+              <icon src="IconAdmin.png.png" density="hdpi" />
+              <icon src="IconAdmin.png" density="xhdpi" />
+     </platform>
+
 <access origin="http://code.jquery.com" subdomains="true" />
 <access origin="http://whybumperstickers.netau.net"/>
 </widget>
