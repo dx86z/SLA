@@ -14,5 +14,6 @@ A simple Davebuild Application.
 Your Name
 </author>
 
+<access origin="http://code.jquery.com" subdomains="true" />
 <access origin="http://whybumperstickers.netau.net"/>
 </widget>
