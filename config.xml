@@ -2,24 +2,24 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.phonegap.example"
-    version   = "3.9.0">
+    version   = "1.0.1">
 
 <gap:platform name="ios" />
 <gap:platform name="android" />
 
-<name>SLA Test 1</name>
+<name>SLA Lunch App</name>
 
 <description>
-A simple Davebuild Application.
+Order Student Lunches
 </description>
 
-<author href="https://example.com" email="you@example.com">
-Your Name
+<author href="https://example.com" email="davidzold@gmail.com">
+David Zold
 </author>
 
 <icon src="IconAdmin.png" gap:platform="android" gap:density="hdpi" />
 <gap:splash src="IconUser.png" gap:platform="android" gap:density="hdpi" />
 
 <access origin="http://code.jquery.com" subdomains="true" />
-<access origin="http://whybumperstickers.netau.net"/>
+<access origin="http://www.slalunchorder.com"/>
 </widget>
