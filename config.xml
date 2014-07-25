@@ -18,7 +18,7 @@ David Zold
 </author>
 
 <icon src="IconAdmin.png" gap:platform="android" gap:density="hdpi" />
-<gap:splash src="splash1.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="splash2.png" gap:platform="android" gap:density="hdpi" />
 
 <access origin="http://code.jquery.com" subdomains="true" />
 <access origin="http://slalunchorders.com"/>
